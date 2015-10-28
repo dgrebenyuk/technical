@@ -1,0 +1,8 @@
+- Define global hash with basic Roman numbers ({M => 1000, CM => 900, D => 500...etc})
+- Define method convert(roman)
+- Define test which will call convert("M") and assert_equal for it 1000 (red test)
+- Change convert method: add parse logic for roman string to see if it includes Basic Nambers. Make it case insensetive.
+- Test should be green
+- Add two more tests: for more complex Roman Numbers assert_equal(42, convert("XLII")) and for wrong arguments convert("IIII")
+- Change parse logic for more complex Roman Numbers and for errors handling
+- All tests should pass
